@@ -1,60 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Janiri Page</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Janiri</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <main class="page">
+    <h1 class="sr-only" translate="no">The Janiri</h1>
 
-    <div class="containerPrincipal">
-        <h1 translate="no">The Janiri</h1>
+    <img class="poster" src="./assets/poster.png" alt="Janiri - Stream en vivo en Kick">
 
-        <div class="containerNetworks">
+    <nav class="links" aria-label="Redes sociales">
+      <a class="link" href="https://kick.com/thejaniri" target="_blank" rel="noopener">
+        <span class="link-name">Kick</span>
+        <img class="link-icon" src="./assets/kick-streaming-platform-logo-icon.svg" alt="" width="24" height="24">
+      </a>
 
-            <!-- Tik tok -->
-            <a class="target" href="https://www.tiktok.com/@the_janiri" target="_blank">
-                <p>
-                    Tik tok
-                </p>
-                <p class="tiktok">
-                    <i class="fab fa-tiktok"></i>
-                </p>
-            </a>
-        
-            <!-- Kick -->
-            <a class="target" href="https://kick.com/thejaniri" target="_blank">
-                <p>
-                    kick
-                </p>
-                <p>
-                    <img src="./assets/kick-streaming-platform-logo-icon.svg" alt="Kick" width="24" height="24">
-                </p>
-            </a>
-        
-            <!-- Instagram -->
-            <a class="target" href="https://www.instagram.com/the_janiri/" target="_blank">
-                <p>
-                    Instagram
-                </p>
-                <p class="instagram">
-                    <i class="fab fa-instagram"></i>
-                </p>
-            </a>
-        
-            <!-- YouTube -->
-            <a class="target" href="https://youtube.com/@thejaniri935?si=x_2k5OcxwWnzr8Gm" target="_blank">
-                <p>
-                    Youtube
-                </p>
-                <p class="youtube">
-                    <i class="fab fa-youtube"></i>
-                </p>
-            </a>
-        </div>
-    </div>
+      <a class="link" href="https://www.tiktok.com/@the_janiri" target="_blank" rel="noopener">
+        <span class="link-name">TikTok</span>
+        <i class="fab fa-tiktok link-icon"></i>
+      </a>
+
+      <a class="link" href="https://www.instagram.com/the_janiri/" target="_blank" rel="noopener">
+        <span class="link-name">Instagram</span>
+        <i class="fab fa-instagram link-icon"></i>
+      </a>
+
+      <a class="link" href="https://youtube.com/@thejaniri935?si=x_2k5OcxwWnzr8Gm" target="_blank" rel="noopener">
+        <span class="link-name">YouTube</span>
+        <i class="fab fa-youtube link-icon"></i>
+      </a>
+
+      <p class="footer">No todos salen iguales.</p>
+    </nav>
+  </main>
 </body>
 </html>
